@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benflix</title>
+    <link rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <div id="nav" class="nav">
+      <a href="index.html"><img class="nav__logo" src="images/logo.svg" alt="" /></a>
+      <img class="nav__avatar" src="images/netflix-avatar.png" alt="" />
+    </div>
+
+    <!-- header -->
+    <header class="bannerjamesbond">
+      <div class="banner__contents">
+        <h1 class="banner__title">James Bond 007 l'intégrale</h1>
+        <div class="banner__buttons">
+          <a href="Matrix4.html"><button class="banner__button">Play</button></a>
+        </div>
+        <h1 class="banner__description">
+          Pour savoir si sa réalité est une construction physique ou mentale, M. Anderson, alias Neo, devra choisir de suivre une fois de plus le lapin blanc. S'il a appris quelque chose, c'est que ce choix, bien qu'illusion, reste le seul moyen de sortir de la Matrice ou d'y entrer...
+        </h1>
+      </div>
+      <div class="banner--fadeBottom"></div>
+    </header>
+
+    <!-- Netflix Originals -->
+    <div class="row">
+      <h2>Les Nouveautés</h2>
+      <div class="row__posters">
+        <a href="TuNeTueraspoint.html"><img class="row__poster row__posterLarge" src="images/James bond affiche.jpg" alt="" /></a>
+      </div>
+    </div>
+
+    <!-- Trending Now -->
+    <div class="row">
+      <h2>Les années Craig</h2>
+      <div class="row__posters">
+        <a href=""><img class="row__poster" src="images/JamesBondCraig.png" alt="" /></a>
+
+        <a href=""><img class="row__poster" src="images/DanielCraig1.png" alt="" /></a>
+
+        <a href=""><img class="row__poster" src="images/DanielCraig2.png" alt="" /></a>
+
+        <a href=""><img class="row__poster" src="images/DanielCraig3.png" alt="" /></a>
+
+        <a href=""><img class="row__poster" src="images/DanielCraig4.png" alt="" /></a>
+
+        <a href=""><img class="row__poster" src="images/Mourir peut attendre.png" alt="" /></a>
+      </div>
+    </div>
+
+    <!-- Top Rated -->
+    <div class="row">
+      <h2>Les années Brosnan</h2>
+      <div class="row__posters">
+        <a href=""><img class="row__poster" src="images/JamesBondBrosnan.png" alt="" /></a>
+
+        <a href=""><img class="row__poster" src="images/Brosnan1.png" alt="" /></a>
+
+        <a href=""><img class="row__poster" src="images/Brosnan2.png" alt="" /></a>
+
+        <a href=""><img class="row__poster" src="images/Brosnan3.png" alt="" /></a>
+
+        <a href=""><img class="row__poster" src="images/Brosnan4.png" alt="" /></a>
+      </div>
+    </div>
+
+    <!-- Action Movies -->
+    <div class="row">
+      <h2>Les années Dalton</h2>
+      <div class="row__posters">
+        <a href="Joker.html"><img class="row__poster" src="images/JamesBondDalton.png" alt="" /></a>
+
+        <a href="Joker.html"><img class="row__poster" src="images/Dalton1.png" alt="" /></a>
+
+        <a href="Joker.html"><img class="row__poster" src="images/Dalton2.png" alt="" /></a>
+      </div>
+    </div>
+
+    <!-- Comedy Movies -->
+    <div class="row">
+      <h2>Les années Moore</h2>
+      <div class="row__posters">
+        <a href="Retouràzombieland.html"><img class="row__poster" src="images/JamesBondMoore.png" alt="" /></a>
+
+        <a href="Retouràzombieland.html"><img class="row__poster" src="images/Moore1.png" alt="" /></a>
+
+        <a href="Retouràzombieland.html"><img class="row__poster" src="images/Moore2.png" alt="" /></a>
+
+        <a href="Retouràzombieland.html"><img class="row__poster" src="images/Moore3.png" alt="" /></a>
+
+        <a href="Retouràzombieland.html"><img class="row__poster" src="images/Moore4.png" alt="" /></a>
+
+        <a href="Retouràzombieland.html"><img class="row__poster" src="images/Moore5.png" alt="" /></a>
+
+        <a href="Retouràzombieland.html"><img class="row__poster" src="images/Moore6.png" alt="" /></a>
+
+        <a href="Retouràzombieland.html"><img class="row__poster" src="images/Moore7.png" alt="" /></a>
+      </div>
+    </div>
+
+    <!-- Horror Movies -->
+    <div class="row">
+      <h2>Les années Connery</h2>
+      <div class="row__posters">
+        <a href="CaChapitre1.html"><img class="row__poster" src="images/JamesBondConnery.png" alt="" /></a>
+
+        <a href="CaChapitre1.html"><img class="row__poster" src="images/Connery1.png" alt="" /></a>
+
+        <a href="CaChapitre1.html"><img class="row__poster" src="images/Connery2.png" alt="" /></a>
+
+        <a href="CaChapitre1.html"><img class="row__poster" src="images/Connery3.png" alt="" /></a>
+
+        <a href="CaChapitre1.html"><img class="row__poster" src="images/Connery4.png" alt="" /></a>
+
+        <a href="CaChapitre1.html"><img class="row__poster" src="images/Connery5.png" alt="" /></a>
+
+        <a href="CaChapitre1.html"><img class="row__poster" src="images/Connery6.png" alt="" /></a>
+
+        <a href="CaChapitre1.html"><img class="row__poster" src="images/Connery7.png" alt="" /></a>
+      </div>
+    </div>
+
+    <script>
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add('nav__black');
+        } else {
+          nav.classList.remove('nav__black');
+        }
+      });
+    </script>
+  </body>
+</html>
